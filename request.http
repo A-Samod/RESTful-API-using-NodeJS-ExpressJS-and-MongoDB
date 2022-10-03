@@ -1,0 +1,31 @@
+@host=http://localhost:3000/api
+
+### View Books
+
+ GET {{host}}/books
+
+### Add Books
+
+POST {{host}}/books 
+content-type: application/json
+
+{
+    "title":"RESTful API using NodeJS, ExpressJS and MongoDB",
+    "author":"ASamod",
+    "genre":"v"
+}
+
+### Update Books
+
+PATCH  {{host}}/books/633abb2a745b4a5f6e5578b8
+content-type: application/json
+
+{
+    "title":"RESTful",
+    "author":"Samod",
+    "genre":"v"
+}
+
+### Delete Books
+
+DELETE {{host}}/books/633ab3acd531c1bc0462c6f9
