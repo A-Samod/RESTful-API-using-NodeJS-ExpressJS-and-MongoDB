@@ -1,5 +1,5 @@
 # RESTful API using NodeJS, ExpressJS and MongoDB
-### Install node_modules
+### Install Packages
 ```
 npm install
 ```
